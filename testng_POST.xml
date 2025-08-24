@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/ATB12xAPIAutomationProject">
+        <classes>
+            <class name="com.thetestingacademy.ex2_RestAssured_HTTP_Methods.POST.APITestingBDD_Style_POST">
+                <methods>
+                    <include name="test_BDD_Style_POST_TOKEN"/>
+                    </methods>
+            </class>
+
+            <class name="com.thetestingacademy.ex2_RestAssured_HTTP_Methods.POST.APITestingNONBDD_Style_POST">
+                <methods>
+                    <include name="test_NONBDD_Style_Token"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
